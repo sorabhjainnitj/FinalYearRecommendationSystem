@@ -11,9 +11,14 @@ import javax.servlet.http.HttpServletResponse;
 
 public class SampleServlet extends HttpServlet {
 	 
-	   private String message;
+	 
 
-	   public void doGet(HttpServletRequest request, HttpServletResponse response)
+	   /**
+	 *    
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
 	      throws ServletException, IOException {
 	      
 	      // Set response content type

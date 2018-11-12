@@ -12,7 +12,8 @@
 
 	<context:component-scan
 		base-package="FinalYearProject.Frontend.controller/" />
-
+   <context:component-scan
+		base-package="shoppingbackend/" />
 
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
